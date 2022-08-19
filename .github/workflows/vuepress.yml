@@ -13,6 +13,6 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: username/repo
         TARGET_BRANCH: master
-        BUILD_SCRIPT: npm docs:build && npm docs:dev
+        BUILD_SCRIPT: npm run docs:build && npm run docs:dev
         BUILD_DIR: blog/.vuepress/dist/
         CNAME: https://wuding-card.github.io/
