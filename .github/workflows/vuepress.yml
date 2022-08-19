@@ -11,6 +11,7 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        GITHUB_ACTOR: SmokeyDays
         BRANCH: gh-pages # The branch the action should deploy to.
         BUILD_SCRIPT: npm install && npm run docs:build
         BUILD_DIR: docs/.vuepress/dist/
