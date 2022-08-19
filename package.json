@@ -1,0 +1,24 @@
+{
+  "name": "wuding-card.github.io",
+  "version": "1.0.0",
+  "description": "灵犀瓶(40张以上，60张以下)：\r 所谓灵犀瓶，即为玩家对战时使用的摸牌堆。依照以下的规则，就能够自由组合属于个人的灵犀瓶。\r -\t灵犀瓶中的卡牌数必须维持在40～60张之间。\r -\t灵犀瓶由法术、法阵、法器、心法、万物、环境牌组成，相同名称的牌最多携带3张。\r -\t灵犀瓶中至少拥有一张心法牌。\r -\t一般来讲，灵犀瓶中的牌越少，就越容易在对战中抽到自己期望的牌。\r -\t你无法携带与灵犀瓶中已有的心法牌所属门派不同的卡牌。\r 命火标识物：\t对战时角色的生命值会不停的变化，不同的情况下玩家也会拥有不同的生命值（命火）上限，因此一些用于表示玩家命火数量的道具必不可少。命火标识物是小型的火焰标记，摆在场上的数量代表命火的上限，翻面这些标识物表示失去命火，正面向上时则表示你的生命值数量。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuding-card/wuding-card.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuding-card/wuding-card.github.io/issues"
+  },
+  "homepage": "https://github.com/wuding-card/wuding-card.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
