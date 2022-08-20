@@ -4,7 +4,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs --dest dist"
   },
-  "devDependencies": {
+  "dependencies": {
     "vuepress": "^1.9.7"
   }
 }
