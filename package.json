@@ -2,7 +2,7 @@
   "private":"true",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs --dest dist"
+    "docs:build": "vuepress build docs"
   },
   "dependencies": {
     "vuepress": "^1.9.7"

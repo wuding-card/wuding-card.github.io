@@ -27,5 +27,5 @@ jobs:
         user_name: "GitHub Actions"
         user_email: "actions@github.com"
         publish_branch: "gh-pages"
-        publish_dir: ./dist
+        publish_dir: ./docs/.vuepress/dist
         commit_message: 'deploy:'
